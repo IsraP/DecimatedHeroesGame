@@ -1,0 +1,102 @@
+.bg-p{
+    background-color: #2d4059;
+}
+
+.bg-s{
+    background-color: #ea5455;
+}
+
+.bg-t{
+    background: #f07b3f;
+}
+
+main.main > img{
+    width:100%;
+    height: auto;
+}
+
+.bannerGame{
+    background-image: url("../DeciFundo.png");
+    background-size:cover;
+    background-position: center;
+    animation: fadein 1.5s ease-in-out;
+}
+
+.textoBanner{
+    animation: namein 3s ease-in-out;
+    color: black;
+}
+
+.textoBanner2{
+    animation: namein2 5s ease-in-out;
+    color: black;
+}
+
+.textoBanner3{
+    animation: namein3 7s ease-in-out;
+    color: black;
+}
+
+.card-banner{
+    height: 500px !important;
+}
+
+@keyframes fadein{
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes namein{
+    0% {
+        opacity: 0;
+        color: white;
+        font-size: larger;
+    }
+    50%{
+        opacity: 1;
+        color: white;
+        
+    }
+    100%{
+        color: black;
+    }
+
+
+}
+
+@keyframes namein2{
+    0% {
+        opacity: 0;
+        color: white;
+        font-size: larger;
+    }
+    50%{
+        opacity: 1;
+        color: white;
+        
+    }
+    100%{
+        color: black;
+    }
+
+
+}
+
+@keyframes namein3{
+    0% {
+        opacity: 0;
+        color: white;
+        font-size: larger;
+    }
+    50%{
+        opacity: 1;
+        color: white;
+        
+    }
+    100%{
+        color: black;
+    }
+
+
+}
+
