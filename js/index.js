@@ -73,6 +73,7 @@ window.onload = () => {
                 document.getElementById("metaltext").style.display = "none";
                 document.getElementById("divisor3").style.display = "none";
                 document.getElementById("divisor4").style.display = "none";
+                document.getElementById("divisor1").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
@@ -92,6 +93,7 @@ window.onload = () => {
                 document.getElementById("metaltext").style.display = "none";
                 document.getElementById("divisor3").style.display = "none";
                 document.getElementById("divisor4").style.display = "none";
+                document.getElementById("divisor1").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
@@ -105,6 +107,7 @@ window.onload = () => {
                 personagem.style.display = "block";
                 divisor.style.display = "block";
                 document.getElementById("megatext").style.display = "none";
+                document.getElementById("divisor1").style.display = "none";
                 document.getElementById("kentext").style.display = "none";
                 document.getElementById("ryutext").style.display = "none";
                 document.getElementById("zerotext").style.display = "none";
@@ -131,6 +134,7 @@ window.onload = () => {
                 document.getElementById("divisor2").style.display = "none";
                 document.getElementById("turingtext").style.display = "none";
                 document.getElementById("divisor3").style.display = "none";
+                document.getElementById("divisor1").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
