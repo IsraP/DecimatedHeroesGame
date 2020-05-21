@@ -20,6 +20,15 @@ window.onload = () => {
             if (megaX.style.display === "none") {
                 megaX.style.display = "block";
                 window.location.href = "#megaimg";
+                document.getElementById("ryutext").style.display = "none";
+                document.getElementById("divisor1").style.display = "none";
+                document.getElementById("zerotext").style.display = "none";
+                document.getElementById("divisor2").style.display = "none";
+                document.getElementById("kentext").style.display = "none";
+                document.getElementById("turingtext").style.display = "none";
+                document.getElementById("metaltext").style.display = "none";
+                document.getElementById("divisor3").style.display = "none";
+                document.getElementById("divisor4").style.display = "none";
               } 
               else {
                 megaX.style.display = "none";
@@ -34,6 +43,14 @@ window.onload = () => {
             if (ryu.style.display === "none") {
                 ryu.style.display = "block";
                 divisor1.style.display = "block";
+                document.getElementById("megatext").style.display = "none";
+                document.getElementById("zerotext").style.display = "none";
+                document.getElementById("divisor2").style.display = "none";
+                document.getElementById("kentext").style.display = "none";
+                document.getElementById("turingtext").style.display = "none";
+                document.getElementById("metaltext").style.display = "none";
+                document.getElementById("divisor3").style.display = "none";
+                document.getElementById("divisor4").style.display = "none";
               } 
               else {
                 ryu.style.display = "none";
@@ -49,6 +66,13 @@ window.onload = () => {
             if (personagem.style.display === "none") {
                 personagem.style.display = "block";
                 divisor.style.display = "block";
+                document.getElementById("megatext").style.display = "none";
+                document.getElementById("ryutext").style.display = "none";
+                document.getElementById("kentext").style.display = "none";
+                document.getElementById("turingtext").style.display = "none";
+                document.getElementById("metaltext").style.display = "none";
+                document.getElementById("divisor3").style.display = "none";
+                document.getElementById("divisor4").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
@@ -60,6 +84,14 @@ window.onload = () => {
             window.location.href = "#kenimg";
             if (personagem.style.display === "none") {
                 personagem.style.display = "block";
+                document.getElementById("megatext").style.display = "none";
+                document.getElementById("ryutext").style.display = "none";
+                document.getElementById("zerotext").style.display = "none";
+                document.getElementById("divisor2").style.display = "none";
+                document.getElementById("turingtext").style.display = "none";
+                document.getElementById("metaltext").style.display = "none";
+                document.getElementById("divisor3").style.display = "none";
+                document.getElementById("divisor4").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
@@ -72,6 +104,13 @@ window.onload = () => {
             if (personagem.style.display === "none") {
                 personagem.style.display = "block";
                 divisor.style.display = "block";
+                document.getElementById("megatext").style.display = "none";
+                document.getElementById("kentext").style.display = "none";
+                document.getElementById("ryutext").style.display = "none";
+                document.getElementById("zerotext").style.display = "none";
+                document.getElementById("divisor2").style.display = "none";
+                document.getElementById("metaltext").style.display = "none";
+                document.getElementById("divisor4").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
@@ -85,6 +124,13 @@ window.onload = () => {
             if (personagem.style.display === "none") {
                 personagem.style.display = "block";
                 divisor.style.display = "block";
+                document.getElementById("megatext").style.display = "none";
+                document.getElementById("kentext").style.display = "none";
+                document.getElementById("ryutext").style.display = "none";
+                document.getElementById("zerotext").style.display = "none";
+                document.getElementById("divisor2").style.display = "none";
+                document.getElementById("turingtext").style.display = "none";
+                document.getElementById("divisor3").style.display = "none";
               } 
             else {
                 personagem.style.display = "none";
